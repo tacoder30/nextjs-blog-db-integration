@@ -1,0 +1,34 @@
+{
+  "name": "nextjs-blog-db-integration",
+  "version": "1.0.0",
+  "description": "Database integration for Next.js blog using PostgreSQL and Drizzle ORM",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:push": "node scripts/db-push.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "drizzle-orm": "^0.29.3",
+    "gray-matter": "^4.0.3",
+    "marked": "^12.0.0",
+    "next": "^15.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.16",
+    "drizzle-kit": "^0.20.13",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
